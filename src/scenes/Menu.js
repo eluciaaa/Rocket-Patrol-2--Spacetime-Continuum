@@ -54,7 +54,7 @@ class Menu extends Phaser.Scene {
 
         let menuConfig = {
             fontFamily: 'Courier',
-            fontSize: '28px',
+            fontSize: '25px',
             backgroundColor: '#FFFFFF',
             color: '#000',
             align: 'right',
@@ -73,7 +73,7 @@ class Menu extends Phaser.Scene {
         titleMenuConfig).setOrigin(0.5)
         this.add.text(game.config.width / 2, game.config.height / 2 - borderUISize - borderPadding - 15, 'Spacetime Continuum',
         menuConfig).setOrigin(0.5)
-        this.add.text(game.config.width / 2, game.config.height / 2 + 15, 'Use ←→ arrows to move & (F) to fire', menuConfig).
+        this.add.text(game.config.width / 2, game.config.height / 2 + 15, 'Use mouse to move & left click to fire', menuConfig).
         setOrigin(0.5)
         menuConfig.backgroundColor = '#ed87ff'
         menuConfig.color = '#FFFFFF'
